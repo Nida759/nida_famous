@@ -1,0 +1,17 @@
+fn main() {
+  let a = [1, 2, 3]; // a[0] = 1, a[1] = 2, a[2] = 3
+  let mut b = [1, 2, 3];
+
+  let c: [i32; 0] = []; //[Type; NO of elements] -> [] /empty array
+  let d: [i32; 3] = [1, 2, 3];
+
+  let e = ["my value"; 3]; //["my value", "my value", "my value"];
+
+  println!("{:?}", a); //[1, 2, 3]
+  println!("{:#?}", a);
+  //  [
+  //      1,
+  //      2,
+  //      3
+  //  ] 
+}
